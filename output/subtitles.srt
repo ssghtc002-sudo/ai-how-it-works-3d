@@ -1,0 +1,23 @@
+1
+00:00:00,275 --> 00:00:04,599
+AI doesn't think like us—it turns messy words and pixels into math.
+
+2
+00:00:05,175 --> 00:00:09,734
+Inside its neural network, millions of connected weights pass signals layer by layer.
+
+3
+00:00:10,375 --> 00:00:14,934
+Attention layers compare every token at once, locking onto hidden patterns and context.
+
+4
+00:00:15,575 --> 00:00:20,020
+During training, it guesses, checks the error, and tunes those weights backward.
+
+5
+00:00:20,775 --> 00:00:25,386
+When generating an answer, it scores every option and picks the best match.
+
+6
+00:00:25,975 --> 00:00:29,547
+Scale data and math together—and patterns start acting like intelligence.

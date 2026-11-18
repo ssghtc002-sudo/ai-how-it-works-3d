@@ -1,0 +1,19 @@
+{
+  "name": "ai-how-it-works-3d",
+  "version": "1.0.0",
+  "description": "How AI Works — 30s 9:16 3D Animated Educational Explainer (Tokens, Neural Layers, Attention, Backpropagation & Softmax)",
+  "main": "src/main.js",
+  "scripts": {
+    "preview": "node render/server.mjs 4178",
+    "verify": "node verify_scene.mjs",
+    "qa": "node render/render_frames.mjs --qa-only",
+    "render": "node render/render_frames.mjs"
+  },
+  "keywords": ["ai", "neural-network", "machine-learning", "education", "threejs", "3d-animation"],
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "^1.65.1",
+    "three": "^0.187.0"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "title": "HOW AI WORKS",
+  "categoryBadge": "AI ARCHITECTURE • NEURAL CORE",
+  "duration": 30.0,
+  "fps": 30,
+  "totalFrames": 900,
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audio": {
+    "sampleRate": 44100,
+    "channels": 2,
+    "masterPath": "audio/output/master_audio.wav",
+    "manifestPath": "audio/output/voice_manifest.json",
+    "srtPath": "output/subtitles.srt",
+    "loudnessLufs": -14.0,
+    "truePeakCeilingDbfs": -1.0
+  },
+  "speakers": {
+    "narrator": {
+      "label": "TECH EXPLAINER",
+      "voice": "am_michael",
+      "lang": "en-us",
+      "speed": 1.02,
+      "color": "#38BDF8",
+      "pan": 0.0
+    }
+  },
+  "worldContract": {
+    "stageFloorY": -2.35,
+    "rawInputCenterY": -1.85,
+    "tokenPrismY": -1.28,
+    "layer0Y": -0.78,
+    "layer1Y": -0.05,
+    "layer2Y": 0.68,
+    "layer3Y": 1.38,
+    "neuralCoreCenter": [0.0, 0.30, 0.0],
+    "attentionHaloY": 0.32,
+    "attentionHaloRadius": 1.28,
+    "lossGaugeY": 1.48,
+    "softmaxDeckY": 1.66,
+    "softmaxTopY": 2.48,
+    "layerRadii": [0.84, 0.94, 0.92, 0.72],
+    "layerCounts": [8, 10, 10, 6]
+  },
+  "beats": [
+    {
+      "id": "beat_1_data_tokens",
+      "chapter": "01 • INPUT & TOKENIZATION",
+      "start": 0.0,
+      "end": 5.0,
+      "shot": "token_prism_intake",
+      "summary": "Unstructured glowing data packets and words enter a crystalline tokenization prism ring and emerge aligned as numerical vector embeddings."
+    },
+    {
+      "id": "beat_2_neural_layers",
+      "chapter": "02 • NEURAL LAYERS",
+      "start": 5.0,
+      "end": 10.2,
+      "shot": "neural_lattice_sweep",
+      "summary": "Camera glides into the 4-layer 3D neural core where glowing synaptic pulses race upward through bright weighted axon pathways."
+    },
+    {
+      "id": "beat_3_attention_context",
+      "chapter": "03 • SELF-ATTENTION",
+      "start": 10.2,
+      "end": 15.4,
+      "shot": "attention_matrix_orbit",
+      "summary": "Twin gyroscope Attention Rings ignite; golden-cyan curved attention beams link related concepts across distant layers simultaneously."
+    },
+    {
+      "id": "beat_4_training_backprop",
+      "chapter": "04 • ERROR & BACKPROPAGATION",
+      "start": 15.4,
+      "end": 20.6,
+      "shot": "backprop_weight_tuning",
+      "summary": "A noisy initial guess triggers a coral error pulse at the Loss Ring, firing an emerald backpropagation wave backward to tune synapse weights."
+    },
+    {
+      "id": "beat_5_probability_output",
+      "chapter": "05 • PROBABILITY PREDICTION",
+      "start": 20.6,
+      "end": 25.8,
+      "shot": "softmax_probability_lock",
+      "summary": "Camera ascends to the Softmax Probability Chamber as 5 crystal columns compute scores and lock onto the strongest 92% match."
+    },
+    {
+      "id": "beat_6_intelligence_recap",
+      "chapter": "06 • CONVERGED INTELLIGENCE",
+      "start": 25.8,
+      "end": 30.0,
+      "shot": "converged_core_finale",
+      "summary": "Full hero pullback frames the luminous, synchronized neural intelligence system computing seamlessly from base data to output."
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "line_01",
+      "beatId": "beat_1_data_tokens",
+      "speaker": "narrator",
+      "start": 0.25,
+      "end": 4.85,
+      "text": "AI doesn't think like us—it turns messy words and pixels into math."
+    },
+    {
+      "id": "line_02",
+      "beatId": "beat_2_neural_layers",
+      "speaker": "narrator",
+      "start": 5.15,
+      "end": 10.00,
+      "text": "Inside its neural network, millions of connected weights pass signals layer by layer."
+    },
+    {
+      "id": "line_03",
+      "beatId": "beat_3_attention_context",
+      "speaker": "narrator",
+      "start": 10.35,
+      "end": 15.20,
+      "text": "Attention layers compare every token at once, locking onto hidden patterns and context."
+    },
+    {
+      "id": "line_04",
+      "beatId": "beat_4_training_backprop",
+      "speaker": "narrator",
+      "start": 15.55,
+      "end": 20.40,
+      "text": "During training, it guesses, checks the error, and tunes those weights backward."
+    },
+    {
+      "id": "line_05",
+      "beatId": "beat_5_probability_output",
+      "speaker": "narrator",
+      "start": 20.75,
+      "end": 25.60,
+      "text": "When generating an answer, it scores every option and picks the best match."
+    },
+    {
+      "id": "line_06",
+      "beatId": "beat_6_intelligence_recap",
+      "speaker": "narrator",
+      "start": 25.95,
+      "end": 29.75,
+      "text": "Scale data and math together—and patterns start acting like intelligence."
+    }
+  ],
+  "sfxEvents": [
+    { "id": "sfx_01", "time": 0.18, "type": "holo_boot", "gain": 0.56, "pan": 0.0 },
+    { "id": "sfx_02", "time": 2.15, "type": "prism_split", "gain": 0.62, "pan": 0.0 },
+    { "id": "sfx_03", "time": 5.05, "type": "layer_surge", "gain": 0.60, "pan": 0.0 },
+    { "id": "sfx_04", "time": 7.45, "type": "synapse_spark", "gain": 0.48, "pan": 0.18 },
+    { "id": "sfx_05", "time": 10.25, "type": "attention_lock", "gain": 0.64, "pan": -0.1 },
+    { "id": "sfx_06", "time": 12.80, "type": "arc_shimmer", "gain": 0.52, "pan": 0.15 },
+    { "id": "sfx_07", "time": 15.45, "type": "forward_guess", "gain": 0.50, "pan": 0.0 },
+    { "id": "sfx_08", "time": 16.55, "type": "loss_error_ping", "gain": 0.68, "pan": 0.0 },
+    { "id": "sfx_09", "time": 17.65, "type": "backprop_sweep", "gain": 0.72, "pan": 0.0 },
+    { "id": "sfx_10", "time": 20.65, "type": "softmax_rise", "gain": 0.62, "pan": 0.0 },
+    { "id": "sfx_11", "time": 23.15, "type": "top_match_lock", "gain": 0.70, "pan": 0.0 },
+    { "id": "sfx_12", "time": 25.90, "type": "core_swell", "gain": 0.65, "pan": 0.0 },
+    { "id": "sfx_13", "time": 28.90, "type": "outro_chime", "gain": 0.58, "pan": 0.0 }
+  ]
+}
